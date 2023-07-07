@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recruitment Solution - Candidate Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://unpkg.com/@barba/core@2.10.2/dist/barba.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>TalentHunter</h1>
+    </div>
+
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="search.html">Candidate Search</a>
+    </div>
+
+    <div class="content">
+        <h2>Candidate Search</h2>
+        <form>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
+
+            <label for="role">Job Role:</label>
+            <input type="text" id="role" name="role">
+
+            <input type="submit" value="Search">
+        </form>
+
+        <div class="candidate-list">
+            <!-- Add the fetched candidates list here -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Recruitment Solution</p>
+    </div>
+    <div class="dot"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
